@@ -16,3 +16,24 @@ SEO-friendly template for a web page, including various metadata, structured dat
 14. `<link rel="alternate" hreflang="..." href="...">`: These tags specify alternate versions of the page for different languages, indicating the language targeting of the content.
 15. `<body>`: This section contains the main content of the HTML document, including headings, paragraphs, images, and links.
 16. Header, Main Content, and Footer: These sections structure the main content of the HTML document, typically including navigation links, headings, paragraphs, images, and other relevant content.
+
+
+Basic Meta Tag
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<p>All meta information goes in the head section...</p>
+
+</body>
+</html>
+```
+
