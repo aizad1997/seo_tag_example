@@ -65,69 +65,10 @@ Another Example
     <meta name="twitter:image" content="https://www.example.com/seo-example.jpg">
     <!-- Robots Meta Tag -->
     <meta name="robots" content="index,follow">
-    <!-- Schema.org Markup -->
-    <script type="application/ld+json">
-        {
-          "@context": "http://schema.org",
-          "@type": "Organization",
-          "name": "SEO Example",
-          "url": "https://www.example.com",
-          "logo": "https://www.example.com/logo.png",
-          "contactPoint": [{
-            "@type": "ContactPoint",
-            "telephone": "+1-123-456-7890",
-            "contactType": "customer service"
-          }]
-        }
-    </script>
-    <!-- Sitemap Link -->
-    <link rel="sitemap" type="application/xml" href="sitemap.xml">
-    <!-- Alternate Language Links -->
-    <link rel="alternate" hreflang="en" href="https://www.example.com/seo-example.html">
-    <link rel="alternate" hreflang="es" href="https://www.example.com/es/seo-ejemplo.html">
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <h1>SEO Example</h1>
-        <nav>
-            <ul>
-                <li><a href="#section1">Section 1</a></li>
-                <li><a href="#section2">Section 2</a></li>
-                <li><a href="#section3">Section 3</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <!-- Main Content -->
-    <main>
-        <section id="section1">
-            <h2>Section 1: Heading</h2>
-            <p>This is some content for section 1.</p>
-            <!-- Image with Alt Tag -->
-            <img src="image1.jpg" alt="SEO Example Image 1">
-        </section>
-
-        <section id="section2">
-            <h2>Section 2: Keywords</h2>
-            <p>This is some content for section 2.</p>
-        </section>
-
-        <section id="section3">
-            <h2>Section 3: Links</h2>
-            <p>This is some content for section 3.</p>
-            <!-- Anchor Tags with Descriptive Text -->
-            <a href="https://www.example.com/page1.html">Page 1</a>
-            <a href="https://www.example.com/page2.html">Page 2</a>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 SEO Example. All rights reserved.</p>
-    </footer>
 </body>
 </html>
-
 ```
 
