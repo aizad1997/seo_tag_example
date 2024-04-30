@@ -37,3 +37,97 @@ Basic Meta Tag
 </html>
 ```
 
+Another Example
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO Example</title>
+    <meta name="author" content="Chandula Janith">
+    <link rel="icon" href="https://www.example.com/seo-example.jpg">
+    <link rel="apple-touch-icon" href="https://www.example.com/seo-example.jpg">
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="This is an example HTML file showcasing important HTML tags for SEO.">
+    <meta name="keywords" content="HTML, SEO, meta tags, search engine optimization">
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.example.com/seo-example.html">
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="SEO Example">
+    <meta property="og:description" content="This is an example HTML file showcasing important HTML tags for SEO.">
+    <meta property="og:url" content="https://www.example.com/seo-example.html">
+    <meta property="og:image" content="https://www.example.com/seo-example.jpg">
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SEO Example">
+    <meta name="twitter:description" content="This is an example HTML file showcasing important HTML tags for SEO.">
+    <meta name="twitter:image" content="https://www.example.com/seo-example.jpg">
+    <!-- Robots Meta Tag -->
+    <meta name="robots" content="index,follow">
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "SEO Example",
+          "url": "https://www.example.com",
+          "logo": "https://www.example.com/logo.png",
+          "contactPoint": [{
+            "@type": "ContactPoint",
+            "telephone": "+1-123-456-7890",
+            "contactType": "customer service"
+          }]
+        }
+    </script>
+    <!-- Sitemap Link -->
+    <link rel="sitemap" type="application/xml" href="sitemap.xml">
+    <!-- Alternate Language Links -->
+    <link rel="alternate" hreflang="en" href="https://www.example.com/seo-example.html">
+    <link rel="alternate" hreflang="es" href="https://www.example.com/es/seo-ejemplo.html">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>SEO Example</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">Section 1</a></li>
+                <li><a href="#section2">Section 2</a></li>
+                <li><a href="#section3">Section 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section id="section1">
+            <h2>Section 1: Heading</h2>
+            <p>This is some content for section 1.</p>
+            <!-- Image with Alt Tag -->
+            <img src="image1.jpg" alt="SEO Example Image 1">
+        </section>
+
+        <section id="section2">
+            <h2>Section 2: Keywords</h2>
+            <p>This is some content for section 2.</p>
+        </section>
+
+        <section id="section3">
+            <h2>Section 3: Links</h2>
+            <p>This is some content for section 3.</p>
+            <!-- Anchor Tags with Descriptive Text -->
+            <a href="https://www.example.com/page1.html">Page 1</a>
+            <a href="https://www.example.com/page2.html">Page 2</a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 SEO Example. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+```
+
